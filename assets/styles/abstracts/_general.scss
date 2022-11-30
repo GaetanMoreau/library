@@ -1,0 +1,38 @@
+body,
+html {
+    font-size: 62.5% !important;
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: $primary-font;
+}
+
+body {
+    background-color: $secondary-color;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+.container {
+    display: flex;
+    max-width: 154rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+    flex-direction: column;
+}

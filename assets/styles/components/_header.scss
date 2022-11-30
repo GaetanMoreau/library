@@ -1,0 +1,29 @@
+#AppHeader {
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    height: 80px;
+    box-shadow: rgb(255 255 255 / 5%) 0px 6px 24px 0px, rgb(255 255 255 / 12%) 0px 0px 0px 1px;
+
+    h2 {
+        font-size: 2rem;
+        color: $white-color;
+
+        span {
+            @include text-gradient;
+        }
+    }
+}
+
+.header__socials {
+    display: flex;
+    gap: 1rem;
+
+    img {
+        height: 24px;
+    }
+}
