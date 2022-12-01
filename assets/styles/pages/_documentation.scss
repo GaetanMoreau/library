@@ -3,15 +3,15 @@
     flex-direction: column;
     min-height: 100vh;
 }
+.documentation__container{
+    margin-top: 8rem;
+}
 
 .documentation__content {
-    background-color: blue;
-    padding: 0 240px;
-    margin-top: 4rem;
+    padding: 4rem 4rem 4rem 24rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    height: 200vh;
 
     h1 {
         font-weight: bold;

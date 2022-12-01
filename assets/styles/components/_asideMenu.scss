@@ -1,9 +1,9 @@
 #AppMenu {
-    position: -webkit-sticky;
     position: fixed;
-    top: 120px;
-    background: red;
     width: 200px;
+    border-right: 1px solid yellow;
+    height: 100%;
+    padding-top: 4rem;
 
     ul {
         display: flex;

@@ -1,7 +1,7 @@
 <template>
     <section id="documentation">
         <AppHeader></AppHeader>
-        <section>
+        <section class="documentation__container">
             <AppMenu></AppMenu>
             <main class="documentation__content">
                 <h1>Lorem ipsum</h1>
@@ -77,7 +77,6 @@
                     elit. Tenetur neque nulla id ab dolores nobis pariatur eveniet quaerat placeat eius rem quia ducimus
                     est, nesciunt ut maiores. Magni, aspernatur eius?</p>
             </main>
-            <AppTableOfContent></AppTableOfContent>
         </section>
     </section>
 </template>
