@@ -1,7 +1,7 @@
 #AppMenu {
     position: fixed;
     width: 200px;
-    border-right: 1px solid yellow;
+    border-right: 1px solid rgb(255 255 255 / 12%);
     height: 100%;
     padding-top: 4rem;
 
@@ -20,6 +20,11 @@
             gap: 1rem;
             font-size: 1.6rem;
             font-weight: 200;
+            cursor: pointer;
+
+            &:hover{
+                color: $primary-color;
+            }
         }
 
         img {
